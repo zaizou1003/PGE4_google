@@ -17,7 +17,7 @@ import sys
 from types import FrameType
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import trein_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
